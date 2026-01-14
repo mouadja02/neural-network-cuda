@@ -4,68 +4,72 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual environments
+.venv/
 venv/
 ENV/
 env/
-.venv/
+*.egg-info/
+dist/
+build/
+*.egg
 
-# IDE
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb
-
-# C/C++
-*.o
-*.a
-*.exe
-*.out
-test_matrix
-*.dll
-*.so
-*.dylib
-
-# CUDA
-*.ptx
-*.cubin
-*.fatbin
-
-# Data
-data/
-*.csv
-*.pkl
-*.npy
-*.npz
-
-# Logs
-logs/
-*.log
+.vs/
+.claude/
 
 # OS
 .DS_Store
 Thumbs.db
+*.log
 
-# Build directories
-cmake-build-*/
+# CUDA
+*.i
+*.ii
+*.gpu
+*.ptx
+*.cubin
+*.fatbin
+a.out
+
+# C/C++
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Dataset (too large for git)
+dataset/
+*.idx3-ubyte
+*.idx1-ubyte
+*.gz
+
+# Model weights
+*.pth
+*.h5
+*.weights
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Profiling
+*.prof
+*.nvvp
+*.qdrep
+
+# Documentation archive
+docs/archive/
+
+# Cache
+.cache/
+*.cache
