@@ -257,7 +257,7 @@ This is a personal learning project, but suggestions and improvements are welcom
 
 ## 📝 License
 
-MIT License - Feel free to use this for learning purposes.
+MIT License - the project does NOT provide any warranty - Feel free to use this for learning purposes.
 
 ---
 
